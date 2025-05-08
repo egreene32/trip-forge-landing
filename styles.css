@@ -1,18 +1,23 @@
+/* Base colors */
+:root {
+  --primary-color: #00487c; /* Primary Blue */
+  --secondary-color: #50ffb1; /* Mint Green */
+  --accent-color: #027bce;  /* Deep Blue */
+  --background-color: #f9f9f9; /* Light Gray */
+  --text-color: #3e6680; /* Dark Gray */
+}
+
+/* Body and Global Styles */
 body {
   margin: 0;
   font-family: sans-serif;
-  background: #f9f9f9;
-  color: #00487c;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-}
-
+/* Navbar */
 .navbar {
-  background: #00487c;
+  background-color: var(--primary-color);
   color: white;
   padding: 1em 0;
 }
@@ -24,15 +29,16 @@ body {
 }
 
 .navbar a {
-  color: #50ffb1;
+  color: var(--secondary-color);
   margin-left: 1em;
   text-decoration: none;
 }
 
+/* Hero Section */
 .hero {
   text-align: center;
   padding: 4em 1em;
-  background: #027bce;
+  background-color: var(--accent-color);
   color: white;
 }
 
@@ -40,16 +46,26 @@ body {
   display: inline-block;
   margin-top: 1.5em;
   padding: 0.75em 1.5em;
-  background: #50ffb1;
-  color: #00487c;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   border-radius: 5px;
   text-decoration: none;
 }
 
+/* Hero Image */
+.hero-image {
+  width: 100%; /* Makes the image responsive */
+  max-width: 600px; /* Limit the max width */
+  margin-top: 20px; /* Adds space between text and image */
+  border-radius: 8px; /* Optional: adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+/* How It Works Section */
 .how-it-works {
   padding: 3em 1em;
-  background: white;
-  color: #00487c;
+  background-color: white;
+  color: var(--primary-color);
 }
 
 .how-it-works ul {
@@ -57,9 +73,10 @@ body {
   margin-top: 1em;
 }
 
+/* Footer */
 .footer {
   text-align: center;
   padding: 2em 1em;
-  background: #3e6680;
+  background-color: var(--primary-color);
   color: white;
 }
