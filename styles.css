@@ -3,17 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
     background-color: #CCE6F4;
     color: #175676;
+    font-size: 16px;
     line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 0;
 }
 
 h1, h2 {
     color: #175676;
+    font-weight: bold;
 }
 
 p {
@@ -24,19 +33,41 @@ p {
 /* Header Styles */
 header {
     background-color: #F2F3AE;
+    padding: 50px 0;
     text-align: center;
-    padding: 50px 20px;
 }
 
-header .logo img {
-    width: 150px;
+header .logo {
+    width: 200px;
     margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
 
 /* Section Styles */
 section {
-    padding: 60px 20px;
+    padding: 60px 0;
     text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: #4BA3C3;
 }
 
 #trip-planning {
@@ -68,7 +99,7 @@ section {
 /* Footer Styles */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     background-color: #175676;
     color: white;
 }
