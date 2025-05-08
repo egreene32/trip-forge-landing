@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #CCE6F4;
+  color: #175676;
+  line-height: 1.6;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+header {
+  background-color: #F2F3AE;
+  padding: 4rem 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+header button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #4BA3C3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+#trip-planning { background-color: #EDD382; }
+#social-features { background-color: #FC9E4F; color: white; }
+#visa-checker { background-color: #4BA3C3; color: white; }
+#flight-accommodation { background-color: #175676; color: white; }
+#review-system { background-color: #F2F3AE; }
+#travel-recommendations { background-color: #CCE6F4; }
+
+footer {
+  background-color: #175676;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
